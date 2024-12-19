@@ -5,13 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind</title>
     <link rel="stylesheet" href="css/style.css">
-    <style type="text/tailwindcss">
-        @layer utilities{
-            .kotak::before{
-                @apply content-[''] absolute bg-[conic-gradient(#04b0ee_20deg,transparent_120deg)] w-[160px] h-[160px];
-            }
-        }
-    </style>
 </head>
 
 
@@ -34,14 +27,12 @@
     </header>
 
     <section id="hero" class="h-[700px] w-full bg-gray-900 flex items-center justify-center">
-        <div class="w-auto max-w-60 bg-slate-50 ">
-            <div class="kotak block h-40 w-40 bg-white mx-auto"> 
-                <div class="flex h-full items-center justify-center">INI KOTAK</div>
+        <div class=" bg-slate-50 ">
+            <div class="kotak relative h-40 w-40 bg-white overflow-hidden"> 
             </div>
         </div>
     </section>
 
-        
-
+    
 </body>
 </html>
