@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .kotak::before{
-    @apply content-[''] absolute bg-[conic-gradient(#04b0ee_20deg,transparent_100deg)] w-[300px] h-[300px] top-[-47%] left-[-47%] animate-fullSpin;
+    @apply content-[''] absolute bg-[conic-gradient(#04b0ee_20deg,transparent_120deg)] w-[300px] h-[300px] top-[-47%] left-[-47%] animate-fullSpin;
 }
 .kotak::after{
-    @apply content-['kotak'] text-white bg-gray-950 w-[94%] h-[94%] flex justify-center items-center absolute top-[3%] left-[3%] tracking-[2px]; 
+    @apply content-['Kotak'] text-white bg-gray-950 w-[94%] h-[94%] flex justify-center items-center absolute top-[3%] left-[3%] tracking-[2px]; 
 }
