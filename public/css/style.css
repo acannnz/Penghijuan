@@ -642,8 +642,16 @@ video {
   height: 700px;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-40 {
   width: 10rem;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-full {
@@ -692,6 +700,11 @@ video {
   border-radius: 0.75rem;
 }
 
+.bg-\[\#1c1f2b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 31 43 / var(--tw-bg-opacity, 1));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -733,6 +746,10 @@ video {
 
 .bg-\[length\:400\%_400\%\] {
   background-size: 400% 400%;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-4 {
