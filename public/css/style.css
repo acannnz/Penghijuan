@@ -642,16 +642,8 @@ video {
   height: 700px;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-40 {
   width: 10rem;
-}
-
-.w-\[300px\] {
-  width: 300px;
 }
 
 .w-full {
@@ -698,11 +690,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.bg-\[\#1c1f2b\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 31 43 / var(--tw-bg-opacity, 1));
 }
 
 .bg-black {
